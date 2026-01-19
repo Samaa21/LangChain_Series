@@ -1,4 +1,3 @@
-# integrate our code with OPENAI API
 import os
 import streamlit as st #custom, interactive web applications
 from dotenv import load_dotenv
