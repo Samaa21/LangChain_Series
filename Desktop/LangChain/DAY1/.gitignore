@@ -1,0 +1,43 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.venv/
+ENV/
+env/
+virtualenv/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/.cache/
+
+# =========================
+# LangChain / LLM Cache
+# =========================
+.langchain/
+.cache/
+*.sqlite
+*.db
+

@@ -1,0 +1,5 @@
+openai
+langchain
+python-dotenv
+streamlit #create for end to application
+langchain-openai
